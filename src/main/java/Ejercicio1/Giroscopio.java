@@ -3,12 +3,18 @@ package Ejercicio1;
 import java.time.LocalDate;
 
 public class Giroscopio extends Ciclo {
+    //atributo
     private int autonomia;
-
+    //constructor
     public Giroscopio(String marca, String modelo, LocalDate fechaFabricacion, int autonomia) {
         super(marca, modelo, fechaFabricacion);
         this.autonomia = autonomia;
     }
+    //metodos
+    public void setAutonomia(int autonomia) {
+        this.autonomia = autonomia;
+    }
+
     public int getAutonomia() {
         return autonomia;
     }

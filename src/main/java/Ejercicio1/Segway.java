@@ -14,6 +14,9 @@ public class Segway extends Ciclo {
     public int getMinAltura() {
         return minAltura;
     }
+    public void setMinAltura(int minAltura) {
+        this.minAltura = minAltura;
+    }
     public int getAutonomia() {
         return autonomia;
     }
