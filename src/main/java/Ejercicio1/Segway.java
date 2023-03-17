@@ -24,4 +24,5 @@ public class Segway extends Ciclo {
         return String.format("- Segway %s %d cm %d km %s%.2f/hora",
                 super.toString(), getMinAltura(), getAutonomia(), "€", getAlquilerHora());
     }
+
 }
