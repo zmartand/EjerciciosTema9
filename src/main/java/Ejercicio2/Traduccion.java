@@ -3,7 +3,7 @@ package Ejercicio2;
 public interface Traduccion {
     String introducirDistancia();
     String introducirTiempo();
-    void iniciarRespuesta();
-    void finalizarRespuesta();
+    void inicioRespuesta();
+    void finRespuesta();
     void mostrarVelocidad(double velocidad);
 }
