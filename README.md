@@ -1,4 +1,3 @@
-# EjerciciosTema9
 # Ejercicios tema 9
 ## Nota: 
 Mi repositorio es: https://github.com/zmartand/EjerciciosTema9.git
