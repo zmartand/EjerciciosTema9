@@ -10,15 +10,12 @@ public class Espanol implements Traduccion {
     public String introducirTiempo() {
         return JOptionPane.showInputDialog("Introduzca el tiempo del recorrido (minutos).");
     }
-    public void inicioRespuesta() {
-        JOptionPane.showMessageDialog(null, "La velocidad media es:");
+    public void inicioRespuesta(double velocidad) {
+        JOptionPane.showMessageDialog(null, "Se ha desplazado a una velocidad de " + velocidad + " km/h.");
     }
 
     public void finRespuesta() {
         JOptionPane.showMessageDialog(null, "¡Gracias por utilizar nuestro programa!");
     }
 
-    public void mostrarVelocidad(double velocidad) {
-        JOptionPane.showMessageDialog(null, "Se ha desplazado a una velocidad de " + velocidad + " km/h.");
-    }
 }
